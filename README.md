@@ -18,10 +18,10 @@ Dockers
 - Run npm install, after that to auto update code changes to server you need to open a terminal in the project directory and run `make watch`. 
 - If you see an error after running `make watch` follow these steps to remove the error.
 ```
-Go to node_modules and search for parallelshell module.
-Open parallelshell folder and then open index.js.
-On line `105` you will see this code -> cwd: process.cwd.
-Replace that code with cwd: process.cwd() and it will start working.
+1. Go to node_modules and search for parallelshell module.
+2. Open parallelshell folder and then open index.js.
+3. On line `105` you will see this code -> cwd: process.cwd.
+4. Replace that code with cwd: process.cwd() and it will start working.
 ```
 After that run your dockers server and open a terminal in project directory and run the following command:
 ```
