@@ -7,11 +7,11 @@ Keyflow-Website Standalone Server
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisites
-
-1. Node 
-2. Npm
-3. Dockers
-
+```
+Node 
+Npm
+Dockers
+```
 ### How to run and test keyflow-website on your local machine
 Install node,npm and dockers. Clone keyflow-website repository into your local machine. Run npm install, after that to auto update code changes to server you need to open a terminal in the project directory and run `make watch`. If you see an error follow these steps to remove the error.
 ```
