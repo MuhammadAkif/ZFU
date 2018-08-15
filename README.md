@@ -24,6 +24,8 @@ After that run your dockers server and open a terminal in project directory and 
 ```
 sh run_docker_server.sh
 ```
-it will start your server. 
-Wait until you see this message on your terminal `KEYFLOW WEBSITE OPTIONS "0"`
+It will start your server. Wait until you see this message on your terminal 
+```
+`KEYFLOW WEBSITE OPTIONS "0"`
+```
 You can now check it on `stage-www.localhost:5000/en/cities`
