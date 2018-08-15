@@ -13,10 +13,13 @@ Npm
 Dockers
 ```
 ### How to run and test keyflow-website on your local machine
-Install node,npm and dockers. Clone keyflow-website repository into your local machine. Run npm install, after that to auto update code changes to server you need to open a terminal in the project directory and run `make watch`. If you see an error follow these steps to remove the error.
+- Install node,npm and dockers. 
+- Clone keyflow-website repository into your local machine.
+- Run npm install, after that to auto update code changes to server you need to open a terminal in the project directory and run `make watch`. 
+- If you see an error after running `make watch` follow these steps to remove the error.
 ```
 Go to node_modules and search for parallelshell module.
-Open folder and then open index.js.
+Open parallelshell folder and then open index.js.
 On line `105` you will see this code -> `cwd: process.cwd`.
 Replace that code with `cwd: process.cwd()` and it will start working.
 ```
