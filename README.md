@@ -20,8 +20,8 @@ Dockers
 ```
 Go to node_modules and search for parallelshell module.
 Open parallelshell folder and then open index.js.
-On line `105` you will see this code -> `cwd: process.cwd`.
-Replace that code with `cwd: process.cwd()` and it will start working.
+On line `105` you will see this code -> cwd: process.cwd.
+Replace that code with cwd: process.cwd() and it will start working.
 ```
 After that run your dockers server and open a terminal in project directory and run the following command:
 ```
