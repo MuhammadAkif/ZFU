@@ -15,7 +15,8 @@ Mamp
 ### How to run and test keyflow-event-manager on your local machine
 - Install node,npm and mamp.
 - Clone keyflow-event-manager repository into your local machine.
-- Run `npm install`, after that to auto update code changes to server you need to open a terminal in the project directory and run `make watch`.
+- Run `npm install` to install all the required packages.
+- To auto update code changes to server you need to open a terminal in this directory `keyflow-event-manager > keyflow > eventmanager > static > manager` and run `make watch`. 
 - Now download MAMP and change document root for MAMP server.
 
 ### Steps to change document root for mamp server.
@@ -34,9 +35,10 @@ MAMP on MAC
 11- Select Stop Servers (if they are up and running)
 12- Once the Apache and MySQL servers are stopped, select Start Servers
 ```
+
 Now Open code in text editor or IDE and change the following files. (Note this will be improved in future version)
 
-Uncomment beforeSend function from the following files.
+Uncomment `beforeSend` function from the following files.
 - Event.js
 - GuestsTable.js
 - CardInfo.js
